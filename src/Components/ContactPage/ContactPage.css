@@ -1,0 +1,103 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.contact-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.main_btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px 58px;
+  font-size: 1.2em;
+  margin-left: 162px;
+}
+
+.main_btn:hover {
+  background-color: #218838;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-info__icon {
+  font-size: 2em;
+  margin-right: 20px;
+  color: #28a745;
+}
+.media-body p {
+  padding-top: 11px;
+}
+
+/* Responsive styles for laptop and larger screens */
+@media (min-width: 992px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-lg-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+
+  .col-lg-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+
+  .contact-title {
+    padding-left: 36px;
+    font-size: 2em;
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .main_btn {
+    padding: 15px 30px;
+    font-size: 1.2em;
+  }
+}
+
+/* Additional responsiveness for smaller screens */
+@media (max-width: 991.98px) {
+  .col-lg-8,
+  .col-lg-4 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .contact-title {
+    text-align: center;
+    font-size: 2.5em;
+  }
+
+  .contact-info__icon {
+    justify-content: center;
+  }
+}

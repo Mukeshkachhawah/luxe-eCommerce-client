@@ -1,0 +1,24 @@
+.features-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.feature-box i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-box h3 {
+  margin: 10px 0;
+}
+
+.feature-box p {
+  color: #666;
+}

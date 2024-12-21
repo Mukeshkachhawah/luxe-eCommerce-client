@@ -1,0 +1,39 @@
+.side-products {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  margin-left: -10px;
+  margin-right: 15px;
+}
+
+.side-products .product {
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+.pricing {
+  text-align: left;
+}
+
+.icons {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.icons i {
+  margin-right: 10px;
+}

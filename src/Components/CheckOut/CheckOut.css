@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1000px) {
+  .main {
+    max-width: 1265px;
+    margin-left: 133px;
+  }
+}
+
+.l1 {
+  background-color: #f6f6f6;
+  padding: 14px;
+}
+
+.l2 {
+  margin-left: 14px;
+}
+.l11 {
+  margin-left: 14px;
+  background-color: #f6f6f6;
+  max-width: 327px;
+  max-height: 27px;
+}
+
+.l2 p {
+  color: gray;
+  font-size: 18px;
+}
+
+#email {
+  padding: 10px;
+  width: 101%;
+  text-decoration: none;
+  background-color: white;
+
+
+}
+
+#password {
+  padding: 10px;
+  width: 28%;
+  margin-left: 3%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+#submit {
+  background-color: greenyellow;
+  color: white;
+  padding: 15px;
+  border: none;
+  margin-right: 25px;
+}
+
+#coupon {
+  padding: 10px;
+  width: 64%;
+  border: 1px solid lightgray;
+  margin-top: 21px;
+  border-radius: 10px;
+}
+#checkbox {
+  margin-right: 10px;
+}
+
+.main2 {
+}
+
+.col2 {
+  background: #f9f9f9;
+  padding: 30px;
+}
+
+.col1 h3 {
+  font-size: 22px;
+  color: #2a2a2a;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 35px;
+  margin-top: 37px;
+  text-transform: uppercase;
+}
+
+#first {
+  padding: 12px;
+  border: 1px solid lightgray;
+  width: 33%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+#last {
+  padding: 12px;
+  border: 1px solid lightgray;
+  width: 33%;
+  border-radius: 10px;
+}
+
+#company {
+  padding: 12px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 33%;
+}
+
+#textbox {
+  width: 33%;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.col2 h2 {
+  border-bottom: 1px solid #dddddd;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2a2a2a;
+  padding-bottom: 15px;
+}
+
+.product {
+  font-size: 14px;
+  color: #797979;
+  font-weight: normal;
+  border-bottom: 1px solid #eeeeee;
+  display: block;
+  line-height: 42px;
+}

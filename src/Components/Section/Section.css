@@ -1,0 +1,17 @@
+/* Section.css */
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box1a {
+  text-align: center;
+}
+
+.box2 {
+  margin-top: 20px;
+  background-color: #f0f0f0; /* Custom background */
+  height: 2px;
+  width: 100%;
+}

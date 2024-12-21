@@ -1,0 +1,53 @@
+.banner {
+  position: relative;
+  background-image: url("	https://themewagon.github.io/eiser/img/banner/banner-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 50px;
+  color: white;
+}
+
+.banner h1,
+.banner h2,
+.banner .view-collection-btn {
+  margin: 0;
+}
+
+.banner h1 {
+  font-size: 38px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.banner h2 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.banner .view-collection-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #16d716;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.banner .view-collection-btn:hover {
+  background-color: #444;
+}
+.banner h1:first-of-type {
+  color: rgb(74, 207, 74);
+}
+.banner h2:first-of-type {
+  color: rgb(232, 236, 232);
+}
+.banner h2:nth-of-type(2) {
+  color: rgb(216, 203, 203);
+}
